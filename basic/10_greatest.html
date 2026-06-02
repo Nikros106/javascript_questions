@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function clicks (){
+            var a,b , c;
+            a= parseInt(document.getElementById("a").value);
+            b = parseInt(document.getElementById("b").value)
+            c = parseInt(document.getElementById("c").value)
+
+            if (a>b){
+                if(a>c){
+                    console.log("a is greater")
+                }
+                else {
+                    console.log("c is greater")
+                }
+            }
+            else if(b>c){
+                console.log("b is greater");
+
+
+            }
+            else{
+                console.log("c is greater")
+            }
+
+        }
+
+    </script>
+</head>
+<body>
+    <input type="text" name="" id="a">
+    <input type="text" name="" id="b">
+    <input type="text" name="" id="c">
+    <button onclick="clicks()">greater</button>
+
+    
+</body>
+</html>

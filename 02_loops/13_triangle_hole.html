@@ -1,0 +1,43 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function enter_number(){
+        var   i=1 ,t;
+        var a ="";
+        while(i<=6 ){
+             
+            
+             var j=1
+            while(j<=i){
+
+              if(j==1||j==i||i==6){
+                
+                  a+="*"
+              }
+              else{
+                a+=" "
+              }
+
+                j++;
+            }
+           a += "\n";
+            i++
+
+        }
+        console.log(a)
+
+        }
+
+
+    </script>
+</head>
+<body>
+    <button onclick="enter_number()">enter no</button>
+    
+    
+</body>
+</html>

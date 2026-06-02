@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function sum_marks(){
+            var     math=34,scie=90,sst=98,phy=87 ,sum=0,per ;
+            var hindi , english;
+            hindi = parseInt(document.getElementById("hindi").value)
+            var  ans;
+            
+
+            sum=hindi+eng+math+scie+sst+phy;
+            per=sum/5;
+            console.log("the sum is ");
+             console.log(  sum);
+             console.log("the percentage is ");
+             console.log(per)
+
+             if (per=>40){
+                console.log("pass");
+             }
+             else{
+              console.log("fail");
+
+             }
+
+
+        }
+    </script>
+</head>
+<body>
+    <input type="text" name="" id="hindi">
+    <button onclick="sum_marks()" >Cal Marks</button>
+    <input type="text" name="" id=" english">
+    <!-- <button onclick="per_marks()" >Cal Marks</button> -->
+</body>
+</html>

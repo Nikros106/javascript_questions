@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function clicks (){
+            var a,b , c ,d;
+            a= parseInt(document.getElementById("a").value);
+            b = parseInt(document.getElementById("b").value);
+            c = parseInt(document.getElementById("c").value);
+            d = parseInt(document.getElementById("d").value);
+            e = parseInt(document.getElementById("e").value);
+            f = parseInt(document.getElementById("f").value);
+            
+if (a > b) {
+    if (a > c) {
+        if (a > d) {
+            if (a > e) {
+                if (a > f) {
+                    console.log("a is greatest");
+                }
+                 else {
+                    console.log("f is greatest");
+                }
+            } else if (e > f) {
+                console.log("e is greatest");
+            }
+             else {
+                console.log("f is greatest");
+            }
+        } 
+        else if (d > e) {
+            if (d > f) {
+                console.log("d is greatest");
+            } 
+            else {
+                console.log("f is greatest");
+            }
+        } 
+        else if (e > f) 
+        {
+            console.log("e is greatest");
+        } 
+        else {
+            console.log("f is greatest");
+        }
+    } 
+    else if (c > d) {
+        if (c > e) {
+            if (c > f) {
+                console.log("c is greatest");
+            } else {
+                console.log("f is greatest");
+            }
+        }
+         else if (e > f) {
+            console.log("e is greatest");
+        } 
+        else {
+            console.log("f is greatest");
+        }
+    } 
+    else if (d > e) {
+        if (d > f) {
+            console.log("d is greatest");
+        } else {
+            console.log("f is greatest");
+        }
+    } 
+    else if (e > f) {
+        console.log("e is greatest");
+    } 
+    else {
+        console.log("f is greatest");
+    }
+} 
+else if (b > c) {
+    if (b > d) {
+        if (b > e) {
+            if (b > f) {
+                console.log("b is greatest");
+            } 
+            else {
+                console.log("f is greatest");
+            }
+        } 
+        else if (e > f) {
+            console.log("e is greatest");
+        }
+         else {
+            console.log("f is greatest");
+        }
+    } 
+    else if (d > e) {
+        if (d > f) {
+            console.log("d is greatest");
+        } else {
+            console.log("f is greatest");
+        }
+    }
+     else if (e > f) {
+        console.log("e is greatest");
+    } 
+    else {
+        console.log("f is greatest");
+    }
+} 
+else if (c > d) {
+    if (c > e) {
+        if (c > f) {
+            console.log("c is greatest");
+        } 
+        else {
+            console.log("f is greatest");
+        }
+    }
+     else if (e > f) {
+        console.log("e is greatest");
+    }
+     else {
+        console.log("f is greatest");
+    }
+} 
+else if (d > e) {
+    if (d > f) {
+        console.log("d is greatest");
+    } 
+    else {
+        console.log("f is greatest");
+    }
+} 
+else if (e > f) {
+    console.log("e is greatest");
+} 
+else {
+    console.log("f is greatest");
+}
+        }
+
+            
+
+        
+
+    </script>
+</head>
+<body>
+    <input type="text" name="" id="a">
+    <input type="text" name="" id="b">
+    <input type="text" name="" id="c">
+    <input type="text" name="" id="d">
+    <input type="text" name="" id="e">
+    <input type="text" name="" id="f">
+    <button onclick="clicks()">greater</button>
+
+    
+</body>
+</html>

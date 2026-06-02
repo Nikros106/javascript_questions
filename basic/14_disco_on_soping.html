@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function dis(){
+           var t_price , t_quent , discount, ans;
+           t_price= parseInt(document.getElementById("t_price").value)
+           t_quent= parseInt (document.getElementById("t_quent").value)
+             
+           if(t_quent>=20){
+               ans = t_price*t_quent;
+             discount= ans-25/100*ans;
+             console.log("your Discount is 25%");
+             console.log("your bill ",ans)
+             console.log("after discount. Now you total bill is ",discount)
+
+           }
+
+           else if( t_quent>=12){
+                ans = t_price*t_quent;
+             discount= ans-21/100*ans;
+             console.log("your Discount is 21%");
+             console.log("your bill ",ans)
+             console.log("after discount. Now you total bill is ",discount)
+
+           }
+           else if(t_quent>=5){
+                ans = t_price*t_quent;
+             discount= ans-14/100*ans;
+             console.log("your Discount is 14%");
+             console.log("your bill ",ans)
+             console.log("after discount. Now you total bill is ",discount)
+
+           }
+           else{
+                  ans = t_price*t_quent;
+             discount= ans-7/100*ans;
+             console.log("your Discount is 7%");
+             console.log("your bill ",ans)
+             console.log("after discount. Now you total bill is ",discount)
+           }
+
+
+        
+        }
+
+    </script>
+</head>
+<body>
+    <p>Enter the price of t- shirt</p>
+    <input type="text" name="" id="t_price">
+    <p>enter the quentity </p>
+    <input type="text" name="" id="t_quent">
+    <button onclick="dis()">totel Bill</button>
+
+
+    
+</body>
+</html>

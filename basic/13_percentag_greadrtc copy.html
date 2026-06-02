@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function sum_marks(){
+            var     hin , eng, math,scie,sst,phy  ;
+            var sum,per;
+             
+            hin = parseInt(document.getElementById("hin").value)
+            eng = parseInt(document.getElementById ("eng").value)
+            math= parseInt(document.getElementById("math").value)
+            scie= parseInt(document.getElementById("scie").value)
+            sst=  parseInt(document.getElementById("sst").value)
+            phy=  parseInt(document.getElementById("phy").value)
+            var  ans;
+            
+
+            sum=hin+eng+math+scie+sst+phy;
+            per=sum/6;
+            console.log("the sum is ");
+             console.log(  sum);
+             console.log("the percentage is ");
+             console.log(per) 
+            if(per>=35){
+                console.log ("yo are pass")
+                
+            }
+            if(per>=80){
+                console.log("you are the 1st in clase")
+            }
+            else if(per>=50){
+                console.log("you are 2nd in classs")
+            }
+            else if(per>=35){
+                console.log("you are 3nd in classs and you are just pass")
+            }
+            else(
+                console.log("you are faile ")
+            )
+
+             
+
+
+        }
+    </script>
+</head>
+<body>
+    <input type="text" name="" id="hin">
+    <input type="text" name="" id="eng">
+    <input type="text" name="" id="math">
+    <input type="text" name="" id="scie">
+    <input type="text" name="" id="sst">
+    <input type="text" name="" id="phy">
+
+
+    <button onclick="sum_marks()" >Cal Marks</button>
+</body>
+</html><bdi></bdi>

@@ -1,0 +1,29 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function enter_number(){
+        var num ,i=1, ans;
+        num=parseInt(document.getElementById("num").value)
+        while(i<= 10 ){
+            ans=num*i;
+            
+            
+            console.log(num,"*",i ,"=", ans);
+            i++;
+        }
+        
+        }
+
+
+    </script>
+</head>
+<body>
+    <button onclick="enter_number()">enter no</button>
+    <input type="text" id="num">
+    
+</body>
+</html>

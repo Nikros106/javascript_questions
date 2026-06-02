@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function star_paern(){
+        
+        var i =1;
+        var a=""
+        
+        while(i<=5){
+            var x=5;
+            while(x>=i){
+                a+=" ";
+                x--;
+            }
+            var j=1;
+            while(j<=i){
+                a+="*";
+                j++;
+            }
+            a+="\n"
+            i++;
+        }
+        console.log(a)
+        }
+
+
+    </script>
+</head>
+<body>
+    <button onclick="star_paern()"> click Me</button>
+</body>
+</html>  

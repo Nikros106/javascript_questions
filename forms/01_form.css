@@ -1,13 +1,52 @@
-.body{
-    height: 500px;
-    width: 600px;
-  margin: 0px 0px 0px 470px;
-  padding-left:50px ;
-    background-color: rgb(232, 213, 251);
+.body_big{
+   margin: 150px 0px 0px 600px ;
 }
-h1{
-    text-align: center;
-}
-p{
-    font-size: large;
-}
+
+.heder{
+    font-weight: 800;
+    font-size: 20px;
+    width: 200px;
+ }
+
+ input::placeholder{
+    color:black;
+ }
+ .email{
+    width: 400px;
+    height: 35px;
+    border-radius: 10px;
+
+
+ }
+ .pass{
+    width: 400px;
+    height: 35px;
+    border-radius: 10px;
+ }
+ .login
+ {
+      width: 400px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+ }
+ .forget{
+      width: 400px;
+    height: 35px;
+    border-radius: 10px;
+    border: 0px;
+    background-color: white;
+    
+ }
+ .forget:hover{
+    background-color: rgb(168, 168, 169);
+ }
+ .create{
+     width: 400px;
+    height: 35px;
+    border-radius: 10px;
+    border: 2px solid blue;
+    color: blue;
+    background-color: white;
+ }

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="05_somthing.css">
+    <script>
+ 
+    </script>
+</head>
+<body>
+    <div class="body">
+        <div id="box1"></div>
+        <div id="box2"></div>
+    </div>
+    <button ondblclick="color()">select</button>
+    <script>
+               function color(){
+            var box1,box2;
+            document.getElementById("box1").style.backgroundColor ="navy"
+      document.getElementById("box2").style.backgroundColor="gray"
+
+      document.getElementById("box1").style.margin = "0px 10px 20px 460px";
+      document.getElementById("box2").style.margin = "300px 10px 20px 0px";
+
+        }
+    </script>
+</body>
+</html>

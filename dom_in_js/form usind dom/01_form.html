@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="01_form.css">
+    <script>
+        function submit(){
+          
+            var name,no , email , add;
+            name= (document.getElementById("name").value);
+            no= (document.getElementById("no").value);
+            
+            email= (document.getElementById("email").value);
+            add= (document.getElementById("add"). value);
+     
+        if(name===""){
+          document.getElementById("errorname").innerHTML="!Plese enter your name! "
+          
+            
+        }
+         if (no===""){
+           document.getElementById("errorno").innerHTML="!Plese enter your number! "
+
+        }
+         if ( email===""){
+           document.getElementById("erroremail").innerHTML="!Plese enter your email!"
+
+
+        }
+          if (add===""){
+            document.getElementById("erroradd").innerHTML="!Plese enter your address! "
+
+
+        }
+        else{
+            console.log("welcome ")
+        }
+    }
+        
+    </script>
+</head>
+<body>
+    <div class="body">
+        <p class="text"> Name</p>
+        <input type="name" id="name" placeholder="Enter  your name" >
+        <h1 id="errorname"></h1>
+        <p class="text1"> Mobile number</p>
+        <input type="name" id="no" placeholder="Enter  your  Mobile No" >
+        <h1 id="errorno"></h1>
+
+        <p class="text"> Email</p>
+        <input type="name" id="email" placeholder="Enter  your  email" >
+        <h1 id="erroremail"></h1>
+
+        <p class="text"> Address</p>
+        <input type="name" id="add" placeholder="Enter  your  Addres" >
+        <h1 id="erroradd"></h1>
+
+
+        <button onclick="submit()" class="but"> submit</button>
+        
+
+    </div>
+    
+</body>
+</html>

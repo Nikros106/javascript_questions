@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var name;
+          var no;
+        
+        hi=()=>{
+             
+           name= (document.getElementById("name").value);
+            no= (document.getElementById("no").value);
+            return name,no
+            
+        }
+
+        name = hi();
+        printfun=()=>{
+          
+              console.log(name)
+            console.log(no)
+        }
+    </script>
+</head>
+<body>
+    <button onclick="hi()" >helooooooo</button>
+    <input type="text" id="name" placeholder="enter your name" >
+    <input type="text" id="no" placeholder="enter your no" >
+
+</body>
+</html>

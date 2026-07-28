@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="02_form.css">
+    <script>
+        function submit(){
+          
+            var name,no , email , add,state;
+            name= (document.getElementById("name").value);
+            no= (document.getElementById("no").value);
+            
+            email= (document.getElementById("email").value);
+            add= (document.getElementById("add"). value);
+
+            state = document.getElementById("state");
+            txt = state.options[state.selectedIndex].text;
+     
+        if(name===""){
+          document.getElementById("errorname").innerHTML="!Plese enter your name! ";
+         document.getElementById("name").style.border = "2px solid red";
+          
+            
+        }
+         if (no===""){
+           document.getElementById("errorno").innerHTML="!Plese enter your number! "
+              document.getElementById("no").style.border = "2px solid red";
+
+        }
+         if ( email===""){
+           document.getElementById("erroremail").innerHTML="!Plese enter your email!"
+              document.getElementById("email").style.border = "2px solid red";
+
+
+        }
+          if (add===""){
+            document.getElementById("erroradd").innerHTML="!Plese enter your address! "
+               document.getElementById("add").style.border = "2px solid red";
+
+
+        }
+        else{
+            console.log("welcome ")
+        }
+
+        if(txt === "Choose any"){
+            alert("go back")
+        }
+        else{
+            alert("welcomer")
+        }
+    }
+        
+    </script>
+</head>
+<body>
+     <div class="body">
+        
+    <div class="heder">
+        <p class="registration">Registration Form</p>
+        <p class="take">Take the First Step Toward <br>Success</p>
+    </div>
+
+<p class="Last">Last Date To Apply: 28 June 2026</p>
+  
+ 
+                
+            <div class="div1">
+        <input type="name" id="name" placeholder="Enter  your name" >
+        <h1 id="errorname"></h1>
+            </div>
+            <div class="div2">
+        <input type="name" id="no" placeholder="Enter  your  Mobile No" >
+        <h1 id="errorno"></h1>
+            </div>
+            <div class="div3">
+                
+        <input type="name" id="email" placeholder="Enter  your  email" >
+        <h1 id="erroremail"></h1>
+            </div>
+            <div class="div4">
+        <input type="name" id="add" placeholder="Enter  your  Addres" >
+        <h1 id="erroradd"></h1> 
+
+
+            <div class="div6">
+              
+        <label type="name" id="add" for="state"placeholder="select your state" >
+            </label>
+        <select name="" id="state">
+            <option value="">Choose any</option>
+               <option>Andaman and Nicobar Islands</option>
+    <option value="">Andhra Pradesh</option>
+    <option value="">Arunachal Pradesh</option>
+    <option value="">Assam</option>
+    <option value="">Bihar</option>
+    <option value="">Chandigarh</option>
+    <option value="">Chhattisgarh</option>
+    <option value="">Dadra and Nagar Haveli</option>
+        </select>
+        
+
+        <h1 id="select state"></h1> 
+
+        
+        </div>
+
+          <div class="div7">
+              
+        <label type="name" id="add" for="state"placeholder="select your state" >
+            </label>
+        <select name="" id="state">
+               <option>select level of program</option>
+    <option>all other program</option>
+  
+        </select>
+        
+
+        <h1 id="select state"></h1> 
+
+        
+        </div>
+
+
+
+
+        <div class="div5">
+                    <input type="checkbox" id="auth">
+
+
+    <span>
+        I authorize Uttaranchal University and its representative to 
+        contact me with updates and notifications via 
+        <strong>Email, SMS, WhatsApp, and Call.</strong> 
+        This will override the registry on DND / NDNC.
+    </span>
+        </div>
+        
+
+
+
+            </div>
+             <button onclick="submit()" class="but"> submit</button>
+             <button onclick="submit()" class="but2"> Alredy Registerd?</button>
+        </div>
+
+
+       
+        
+
+    </div>
+    
+</body>
+</html>
+ 
+
+   
+
+</label>

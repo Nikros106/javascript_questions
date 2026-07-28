@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="02_form.css">
+    <script>
+        function submit(){
+          
+            var name,no , email , add;
+            name= (document.getElementById("name").value);
+            no= (document.getElementById("no").value);
+            
+            email= (document.getElementById("email").value);
+            add= (document.getElementById("add"). value);
+     
+        if(name === ""){
+            console.log("enter your name")
+        }
+        else if (no===""){
+            console.log("enter your mobile numbner")
+
+        }
+        else if ( email===""){
+            console.log("enter your email")
+
+        }
+        else if (add===""){
+            console.log("enter your address")
+
+        }
+        else{
+            console.log("welcome ")
+        }
+    }
+        
+    </script>
+</head>
+<body>
+    <div class="body">
+        <p> Name</p>
+        <input type="name" id="name" placeholder="Enter  your name" >
+        <p> Mobile number</p>
+        <input type="name" id="no" placeholder="Enter  your  Mobile No" >
+        <p> Email</p>
+        <input type="name" id="email" placeholder="Enter  your  email" >
+        <p> Address</p>
+        <input type="name" id="add" placeholder="Enter  your  Addres" >
+
+        <button onclick="submit()"> submit</button>
+        
+
+    </div>
+    
+</body>
+</html>

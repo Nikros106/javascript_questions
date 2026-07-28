@@ -1,0 +1,169 @@
+.body{
+    height: 560px;
+    width: 550px;
+    /* margin: 0px 0px 0px 0px; */
+ margin-left: 500px;
+    background-color: rgb(244, 244, 244);
+    
+}
+#errorname{
+    color: red;
+
+    font-size: 15px;
+    margin: 0px 0px 0px 0px;
+}
+#errorno{
+    color: red;
+    font-size: 15px;
+    margin: 0px 0px 0px 0px;
+
+}
+#erroremail{
+    color: red;
+    font-size: 15px;
+    margin: 0px 0px 0px 0px;
+
+}
+#erroradd{
+    color: red;
+    font-size: 15px;
+    margin: 0px 0px 0px 0px;
+
+}
+ 
+ 
+#name{
+    height: 35px;
+    width: 250px;
+    
+}
+#no{
+   height: 35px;
+    width: 250px;
+}
+#email{
+    height: 35px;
+    width: 250px;
+}
+#add{
+   height: 35px;
+    width: 250px;
+}
+.but{
+     width: 200px;
+       width: 550px;
+
+        font-size: 20px;
+    font-weight: 600;
+    margin: 335px 0px 0px 0px;
+    color: white;
+    background-color: rgb(0, 255, 42);
+    border-radius: 10px 10px 10px 10px;
+}
+.but2{
+    
+     width: 200px;
+       width: 550px;
+      font-size: 15px;
+      margin-top: 20px;
+
+    border-radius: 10px 10px 10px 10px;
+
+}
+.but2:hover{
+    color: white;
+    background-color: blue;
+}
+
+.div1{
+    background-color: red;
+          height: 35px;
+    width: 250px;
+    margin: 50px 0px 0px 0px;
+    position: absolute;
+
+}
+.div2{
+    background-color: rgb(5, 255, 55);
+        height: 35px;
+    width: 250px;
+        margin: 50px 0px 0px 290px;
+    position: absolute;
+
+}
+.div3{
+    background-color: rgba(0, 128, 255, 0.553);
+        height: 35px;
+    width: 250px;
+    margin: 120px  0px 0px 0px;
+    position: absolute;
+
+}
+.div4{
+    background-color: rgb(255, 0, 230);
+        height: 35px;
+    width: 250px;
+    margin: 120px  0px 0px 290px;
+    position: absolute;
+
+}
+.div6{
+    background-color: rgb(255, 0, 230);
+        height: 35px;
+    width: 250px;
+    margin:25px 0px 0px -290px;
+position: absolute;
+
+}
+.div7{
+    background-color: rgb(255, 0, 230);
+        height: 35px;
+    width: 250px;
+    margin:25px 0px 0px 0px;
+position: absolute;
+
+}
+.div5{
+   height: 60px;
+    width: 550px;
+    /* background-color: red; */
+    position: absolute;
+    margin: 85px 0px 0px -289px;
+}
+.heder{
+    background-color: blue;
+    border-radius: 20px 20px 0px 0px;
+    height: 145PX;
+    width: 550px;
+}
+
+.registration{
+    color: white;
+    font-size:20px ;
+    position: absolute;
+    margin: 15px 0px 0px 10px;
+}
+.take{
+  color: white;
+    font-size:30px ; 
+    position: absolute;
+
+    margin: 45px 0px 0px 10px;
+
+}
+.Last{
+    color: red;
+    font-size: 18px;
+    position: absolute;
+    font-weight: 600;
+    margin: 10px 0px 0px 0px;
+
+}.auth{
+    position: absolute;
+    margin: 0px 0px 0px 0px;
+    
+}
+#state{
+ height: 35px;
+    width: 250px;
+}

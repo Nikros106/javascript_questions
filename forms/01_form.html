@@ -7,37 +7,70 @@
     <link rel="stylesheet" href="01_form.css">
     <script>
         function submit(){
-            var name,email,no
-            name= (document.getElementById("name").value);
-            email= (document.getElementById("email").value);
-            no= (document.getElementById("no").value);
-            console.log("Name=",name)
-            console.log("email=",email)
-            console.log("mobile no=",no)
+            var myname, mypass ,myage , mygender;
+            myname = "nikhil";
+            mypass = "123";
+            myage="18"
+            mygender="male"
+            var username,password , age , gender;
+            username= (document.getElementById("email").value);
+            password= (document.getElementById("password").value);
+            
+            genderM= (document.getElementById("genderM").checked);
+            genderF= (document.getElementById("genderF").checked);
+ 
+            if(myname == username && mypass == password){
+                console.log("welcome ji")
+
+            }
+            else if(myname!=username){
+                console.log("wronge user name ")
+            }
+          
+            else if(mypass!=password){
+                console.log("wronge user password ")
+            }
+        
+if (genderF==true || genderM==true){
+console.log("hello gender")
+}
+else{
+    console.log("plese choose your gender")
+}
+
+
         }
     </script>
 </head>
 <body>
-    <div class=" body">
-        <h1> fill This Form</h1>
-       <p>enter your name </p>
-       <input type="text" id="name">
-       <br>
-       <br>
-       <br>
-       <form action="">enter your email </form>
-       <input type="text" id="email">
-       <br>
-       <br>
-       <br>
-       <form action="">enter your phone no </form>
-       <input type="text" id="no">
-       <br>
-       <br>
-       <br>
-       <br>
-       <button onclick="submit()"> submit</button>
+    <div class=" body_big">
+        <p class=" heder">Log in to Facebook</p>
        
+       <input type="text " name="" id="email" placeholder="Email or mobile number" class="email">
+       <br>
+       <br>
+     
+      
+       <input type="text" id="password" placeholder=" Password" class="pass">
+        
+       <br>
+       <br>
+          <input type="radio" id="genderM" value="male"> Male <br>
+    <input type="radio" id="genderF" value="female"> Female <br>
+       <br>
+       <br>
+    
+        
+       <br>
+       
+       <br>
+       <button onclick="submit()" class="login"> log in</button>
+       <br>
+       <br>
+       <button  class="forget">Forget Password?</button>
+       <br>
+       <br>
+        <button  class="create">create a new account </button>
     </div>
     
 </body>

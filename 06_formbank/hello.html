@@ -1,0 +1,58 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="hello.css">
+ </head>
+ <body>
+    <div class="main">
+      <div class="body">
+        <h1 class="welcom">welcome to bank of nik</h1>
+        <br>
+        <div class="box1">
+        <form>
+            <h3 >Enter your total amount</h3>
+        <input type="number" id="option1" name="answer" value="0">
+          <button type="button" onclick="addamount()" >submit</button>
+          <br>
+        </form>
+        </div>
+
+        <br>
+
+        <div class="deposit">
+         <form class="deposit1">
+            <h4>Deposit</h4> 
+        <input type="number" id="option2" name="answer" value="">
+        <br><br>
+          <button type="button" onclick="deopsite()">Deposit</button>
+        </form>
+        
+         <form>
+            <h4>withdraw</h4> 
+        <input type="number" id="option3" name="answer" value="">
+         <br><br>
+          <button type="button" onclick="withdraw()">withdraw</button>
+        </form>
+        </div>
+
+<form>
+  <br>
+  <div class="div2">
+     <h3>Final amount</h3> 
+     <br><br>
+    
+     <p id="result" ></p>
+      <button type="button" onclick="showbalc()" class="but">finalAmount</button>
+</form>
+</div>
+        </div>
+
+    </div>
+    <script src="hello.js"></script>
+</body>
+ 
+ 
+ </html>

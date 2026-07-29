@@ -1,0 +1,62 @@
+#main{
+    background-color: red;
+    width:500px;
+    height: 500px;
+    margin-left: 35%;
+    list-style: none;
+}
+.shoping {
+    display: block;
+}
+.items{
+     display: flex;
+    flex-direction: row;
+     gap: 20px;
+     border: 2px solid black;
+}
+#secmain{
+    background-color: rgb(249, 95, 95);
+    width:500px;
+    height: 500px;
+    margin-left: 35%;
+   
+    
+}
+.headwe{
+    height: 100px;
+    background-color: rgb(91, 97, 167);
+}
+.main_body{
+ display: flex;
+    flex-direction: row;
+     gap: 10px;
+}
+.box1{
+    background-color: rgb(155, 182, 19);
+    height: 350px;
+    width: 50px;
+}
+.box2{
+    background-color: rgb(163, 50, 69);
+    height: 350px;
+    width: 150px;
+
+}
+.box3{
+    background-color: rgb(36, 131, 65);
+    height: 350px;
+    width: 50px;
+
+}
+.box4{
+    background-color: rgb(0, 18, 150);
+    height: 350px;
+    width: 117px;
+
+}
+.box5{
+    background-color: rgb(138, 135, 238);
+    height: 350px;
+    width: 93px;
+
+}

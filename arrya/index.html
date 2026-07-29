@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <Script>
+        function print(){
+            var newone = [1,2,4,5,6,7]
+            var i = 0;
+
+            while(i<=5){
+                console.log(newone[i])
+                i++
+            }
+        }
+      function print_rev(){
+    var rev = [1,2,3,4,5,6]
+    var i = 5;   
+
+    while(i >= 0){                 
+        console.log(rev[i])
+        i--                         
+    }
+}
+function evenn(){
+    var even = [1,2,3,4,5,6]
+    var i = 0
+    while(i<=5){
+    if(even[i]%2==0){
+        console.log(even[i])
+    }
+    i++
+}
+}
+function oddd(){
+    var odd = [1,2,3,4,5,6]
+    var i = 0
+    while(i<=5){
+    if(odd[i]%2==1){
+        console.log(odd[i])
+    }
+    i++
+}
+}
+function addd(){
+    var add = [1,2,3,4,5,6]
+    var i = 0,ans=0
+    while(i<=5){
+     ans=ans+add[i]
+     
+    i++
+}
+        console.log("the sum is ",ans)
+
+}
+function two_Array(){
+    var arr1 = [1,2,3,4,5,6]
+    var arr2 = [1,2,3,4,5,6]
+    var i = 0,ans=0
+    while(i<=5){
+     ans= ans+arr1[i]+arr2[i]
+     
+    i++
+}
+        console.log("the sum of 2 arr is ",ans)
+
+}
+
+ 
+
+
+    </Script>
+</head>
+<body>
+    <button onclick="print()">Print Number</button>
+    <button onclick="print_rev()">Print Number for reverce</button>
+    <button onclick="evenn()">Print Number for even</button>
+    <button onclick="oddd()">Print Number for odd</button>
+    <button onclick="addd()">Print Number for add</button>
+    <button onclick="two_Array()">Print Number for add</button>
+</body>
+</html>

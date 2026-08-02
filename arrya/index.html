@@ -66,6 +66,55 @@ function two_Array(){
         console.log("the sum of 2 arr is ",ans)
 
 }
+function two_Array_swap(){
+    var arr1 = [1,2,3,4,5,6]
+    var arr2 = [7,8,9,10,10,11]
+    var i = 0, a=0,b=0,c=0, d=0,temp=[];
+       while(i<=5){
+        console.log("befor value swap arr1=",arr1[i])
+        i++
+       }
+       while(a<=5){
+      
+        console.log("befor value swap arr2=",arr2[a])
+        a++
+       }
+    while(b<=5){
+
+    temp[b]= arr1[b];
+    arr1[b]= arr2[b];
+    arr2[b]= temp[b];
+     
+     
+    b++
+}
+ while(c<=5){
+        console.log("after value swap arr1=",arr1[c])
+        c++
+       }
+ while(d<=5){
+        console.log("after value swap arr2=",arr2[d])
+        d++
+       }
+        
+
+}
+function max(){
+    var arr = [1,2,3,4,5,6]
+    var i = 0,maxx= 0
+    while(i<=5){
+      if(maxx<arr[i]) {
+        maxx=arr[i]
+      }
+      
+     
+    i++
+}
+        console.log("max=",maxx)
+
+         
+
+}
 
  
 
@@ -79,5 +128,7 @@ function two_Array(){
     <button onclick="oddd()">Print Number for odd</button>
     <button onclick="addd()">Print Number for add</button>
     <button onclick="two_Array()">Print Number for add</button>
+    <button onclick="two_Array_swap()">Print Number for swaping</button>
+    <button onclick="max()">Print Number for max</button>
 </body>
 </html>
